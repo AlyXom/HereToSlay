@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "HereToSlay",
+    "slug": "HereToSlay",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
