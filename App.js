@@ -84,7 +84,7 @@ export default function App() {
                 <TouchableOpacity onPress={() => setModalVisible(!modalVisible)}>
                   <View style={{width: 300, height: 500, justifyContent: 'center', alignItems: 'center'}}>
                     <Image style={{width: '100%', height: '100%', borderRadius: 15}} source={activateInfo}/>
-                    <Text style={{marginTop: -45, fontSize: 12, backgroundColor: '#fefefe', fontWeight: '500', width: '95%'}}>{descInfo}</Text>
+                    <Text style={{marginTop: -45, fontSize: 12, backgroundColor: '#fefefe', fontWeight: '500', width: '95%', textAlign: 'right'}}>{descInfo}</Text>
                   </View>
                 </TouchableOpacity>
               </View>
