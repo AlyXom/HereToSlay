@@ -82,9 +82,11 @@ export default function App() {
             >
               <View style={styles.modal}>
                 <TouchableOpacity onPress={() => setModalVisible(!modalVisible)}>
-                  <View style={{width: 300, height: 500, justifyContent: 'center', alignItems: 'center'}}>
-                    <Image style={{width: '100%', height: '100%', borderRadius: 15}} source={activateInfo}/>
-                    <Text style={{marginTop: -45, fontSize: 12, backgroundColor: '#fefefe', fontWeight: '500', width: '95%', textAlign: 'right'}}>{descInfo}</Text>
+                  <View style={styles.modalContainer}>
+                    <View style={styles.imageModal}>
+                      <Image style={{width: '100%', height: '100%', borderTopLeftRadius: 20, borderTopRightRadius: 20}} source={activateInfo}/>
+                    </View>
+                    <Text style={styles.textModal}>{descInfo}</Text>
                   </View>
                 </TouchableOpacity>
               </View>
@@ -107,5 +109,24 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  imageModal: {
+    width: '100%',
+    height: '100%',
+  },
+  modalContainer: {
+    width: 250,
+    height: 450, 
+    alignItems: 'center',
+    borderRadius: 20
+  },
+  textModal: {
+    backgroundColor: '#fff',
+    width: '100%',
+    textAlign: 'center',
+    fontWeight: '500',
+    padding: 4,
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10
   }
 });

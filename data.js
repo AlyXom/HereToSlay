@@ -11,7 +11,7 @@ const CARDS = [
         tittle: 'The Cloaked Sage',
         image: require('./HereToSlayImages/PartyLeader/TheCloakedSage.png'),
         category: 0,
-        desc: 'Cada vez que você jogar uma carta de Magic, COMPRE uma carta.'
+        desc: 'Cada vez que você jogar uma carta de Magica, COMPRE uma carta.'
     },
     {
         id: 3,
@@ -46,7 +46,7 @@ const CARDS = [
         tittle: 'The Ragning Manticore',
         image: require('./HereToSlayImages/PartyLeader/TheRagingManticore.png'),
         category: 0,
-        desc: 'Cada vez que você MATAR um card de Monstro, COMPRE 2 cards.'
+        desc: 'Cada vez que você MATAR uma carta de Monstro, COMPRE 2 cartas.'
     },
     {
         id: 8,
@@ -67,14 +67,14 @@ const CARDS = [
         tittle: 'Anuran Cauldron',
         image: require('./HereToSlayImages/Monster/AnuranCauldron.png'),
         category: 1,
-        desc: ''
+        desc: 'Cada vez que você rolar, +1 para sua rolagem.'
     },
     {
         id: 11,
         tittle: 'ArticAries',
         image: require('./HereToSlayImages/Monster/ArticAries.png'),
         category: 1,
-        desc: ''
+        desc: 'Cada vez que você rolar com sucesso para usar o efeito de um Herói, COMPRE uma carta.'
     },
     {
         id: 12,
