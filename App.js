@@ -23,14 +23,14 @@ export default function App() {
   function desc(id) {
     setDesc(id)
   }
-  
+
   useEffect(() => {
     if (searchText === '') {
       setList(CARDS)
     } else {
       setList(
         CARDS.filter( item => {
-          if (item.tittle.indexOf(searchText) > -1) {
+          if (item.tittle.toLowerCase().indexOf(searchText.toLowerCase()) > -1) {
             return true
           } else {
             return false
