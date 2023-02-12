@@ -81,28 +81,28 @@ const CARDS = [
         tittle: 'Bloodwing',
         image: require('./HereToSlayImages/Monster/Bloodwing.png'),
         category: 1,
-        desc: ''
+        desc: 'Sempre que um jogador DESAFIAR você, ele deve DESCARTAR uma carta.'
     },
     {
         id: 13,
         tittle: 'Corrupted Sabretooth',
         image: require('./HereToSlayImages/Monster/CorruptedSabretooth.png'),
         category: 1,
-        desc: ''
+        desc: 'Cada vez que você DESTRUIR uma carta de Herói, você pode ROUBAR essa carta de Herói.'
     },
     {
         id: 14,
         tittle: 'Crowned Serpent',
         image: require('./HereToSlayImages/Monster/CrownedSerpent.png'),
         category: 1,
-        desc: ''
+        desc: 'Cada vez que qualquer jogador (incluindo você) jogar uma carta Modificadora, você pode COMPRAR uma carta.'
     },
     {
         id: 15,
         tittle: 'Dark Dragon King',
         image: require('./HereToSlayImages/Monster/DarkDragonKing.png'),
         category: 1,
-        desc: ''
+        desc: 'Each time you roll for a Hero cards effect, +1 to your roll.'
     },
     {
         id: 16,

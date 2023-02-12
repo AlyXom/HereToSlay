@@ -23,8 +23,7 @@ export default function App() {
   function desc(id) {
     setDesc(id)
   }
-  console.log(activateInfo)
-
+  
   useEffect(() => {
     if (searchText === '') {
       setList(CARDS)
