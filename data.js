@@ -270,7 +270,7 @@ const CARDS = [
         tittle: 'Dodgy Dealer',
         image: require('./HereToSlayImages/Heroes/DodgyDealer.png'),
         category: 2,
-        desc: 'Trade hands with another player.'
+        desc: 'Troque sua mão com outro jogador.'
     },
     {
         id: 40,
