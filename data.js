@@ -277,7 +277,7 @@ const CARDS = [
         tittle: 'Fluffy',
         image: require('./HereToSlayImages/Heroes/Fluffy.png'),
         category: 2,
-        desc: 'DESTROY 2 Hero cards'
+        desc: 'DESTRUA 2 cartas de Herói.'
     },
     {
         id: 41,
@@ -487,7 +487,7 @@ const CARDS = [
         tittle: 'Rabid Beast',
         image: require('./HereToSlayImages/Heroes/RabidBeast.png'),
         category: 2,
-        desc: 'SACRIFICE any number of cards, then DESTROY the same number of cards.'
+        desc: 'SACRIFIQUE qualquer número de cartas, depois DESTRUA o mesmo número de cartas.'
     },
     {
         id: 71,
@@ -543,7 +543,7 @@ const CARDS = [
         tittle: 'Slippery Paws',
         image: require('./HereToSlayImages/Heroes/SlipperyPaws.png'),
         category: 2,
-        desc: 'Pull 2 cards from another players hand, then DISCARD one of those cards.'
+        desc: 'Puxe 2 cartas da mão de outro jogador e, em seguida, DESCARTE uma dessas cartas.'
     },
     {
         id: 79,
@@ -571,7 +571,7 @@ const CARDS = [
         tittle: 'Snowball',
         image: require('./HereToSlayImages/Heroes/Snowball.png'),
         category: 2,
-        desc: 'COMPRE uma carta. Se for uma carta de Magic, você pode jogá-la imediatamente e COMPRAR uma segunda carta.'
+        desc: 'COMPRE uma carta. Se for uma carta de Mágica, você pode jogá-la imediatamente e COMPRAR uma segunda carta.'
     },
     {
         id: 83,
@@ -613,7 +613,7 @@ const CARDS = [
         tittle: 'Vicious WildCat',
         image: require('./HereToSlayImages/Heroes/ViniciusWildCat.png'),
         category: 2,
-        desc: 'SLAY any Monster card, then end your turn.'
+        desc: 'MATE qualquer card de Monstro e, em seguida, encerre seu turno.'
     },
     {
         id: 89,
