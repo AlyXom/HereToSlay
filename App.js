@@ -9,7 +9,7 @@ const WhiteBackImage = require('./HereToSlayImages/WhiteBackImage.png')
 
 export default function App() {
 
-  const [activateCategory, setActivateCategory] = useState(null)
+  const [activateCategory, setActivateCategory] = useState(0)
   const [list, setList] = useState(CARDS)
   const [searchText, setSearchText] = useState('')
   const [modalVisible, setModalVisible] = useState(false)

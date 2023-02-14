@@ -417,7 +417,7 @@ const CARDS = [
         tittle: 'Meowntain',
         image: require('./HereToSlayImages/Heroes/Meowntain.png'),
         category: 2,
-        desc: 'SACRIFÍCIO uma carta. +5 em todas as suas rolagens até o final do seu turno.'
+        desc: 'SACRIFIQUE uma carta. +5 em todas as suas rolagens até o final do seu turno.'
     },
     {
         id: 61,

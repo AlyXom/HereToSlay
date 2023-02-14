@@ -1,9 +1,5 @@
 const DataCategory = [
     {
-        id: null,
-        category: 'All'
-    },
-    {
         id: 0,
         category: 'Pary Leader'
     },
